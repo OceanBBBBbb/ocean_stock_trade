@@ -1,0 +1,544 @@
+2018-12-14 15:39:46,093 - com.xiangbinwang.OceanStockTradeApplication - Starting OceanStockTradeApplication on GR-A04-1802075 with PID 9748 (D:\workspace-self\ocean_stock_trade\target\classes started by binhaiyang in D:\workspace-self\ocean_stock_trade)
+2018-12-14 15:39:46,099 - com.xiangbinwang.OceanStockTradeApplication - No active profile set, falling back to default profiles: default
+2018-12-14 15:39:47,588 - org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-14 15:39:47,626 - org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 31ms. Found 0 repository interfaces.
+2018-12-14 15:39:48,260 - org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$75d65582] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-14 15:39:48,444 - org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$f556a2b4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-14 15:39:49,445 - org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-12-14 15:39:49,474 - org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-12-14 15:39:49,492 - org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-14 15:39:49,493 - org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-14 15:39:49,510 - org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files (x86)\Java\jdk1.8.0_144\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\NetSarang;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Lenovo\Bluetooth Software\;C:\Program Files\Lenovo\Bluetooth Software\syswow64;D:\apache-maven-3.5.3\bin;C:\Program Files (x86)\Java\jdk1.8.0_144\bin;C:\Program Files (x86)\Java\jdk1.8.0_144\jre\bin;D:\mysql32\mysql-5.7.21-win32\bin;C:\Users\binhaiyang\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\binhaiyang\AppData\Local\Programs\Python\Python36\;.]
+2018-12-14 15:39:49,792 - org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-14 15:39:49,793 - org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3559 ms
+2018-12-14 15:39:51,310 - org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-14 15:39:52,782 - org.mongodb.driver.cluster - Cluster created with settings {hosts=[10.0.30.140:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2018-12-14 15:39:52,862 - org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:394}] to 10.0.30.140:27017
+2018-12-14 15:39:52,865 - org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=10.0.30.140:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 18]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=1342400}
+2018-12-14 15:39:53,312 - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2018-12-14 15:39:53,346 - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found {0} custom documentation plugin(s)
+2018-12-14 15:39:53,357 - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2018-12-14 15:39:53,363 - springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method test was 交易接口
+2018-12-14 15:39:53,365 - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Request mapping: test belongs to groups: [[ResourceGroup{groupName='交易接口', position=0, controller=com.xiangbinwang.controller.TradeController}]] 
+2018-12-14 15:39:53,370 - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Created resource listing Path: /default/交易接口 Description: 交易接口 Position: 0
+2018-12-14 15:39:53,396 - springfox.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.xiangbinwang.common.ApiResponse<java.lang.String>(true)
+2018-12-14 15:39:53,396 - springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.xiangbinwang.common.ApiResponse<java.lang.String>(true)
+2018-12-14 15:39:53,418 - springfox.documentation.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.xiangbinwang.common.ApiResponse<java.lang.String>(true)
+2018-12-14 15:39:53,419 - springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.xiangbinwang.common.ApiResponse<java.lang.String>(true)
+2018-12-14 15:39:53,466 - springfox.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.xiangbinwang.common.ApiResponse<java.lang.String>(true)
+2018-12-14 15:39:53,466 - springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.xiangbinwang.common.ApiResponse<java.lang.String>(true)
+2018-12-14 15:39:53,474 - springfox.documentation.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.xiangbinwang.common.ApiResponse<java.lang.String>(true)
+2018-12-14 15:39:53,475 - springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.xiangbinwang.common.ApiResponse<java.lang.String>(true)
+2018-12-14 15:39:53,478 - springfox.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /v1/api/test.com.xiangbinwang.controller.TradeController.test.DefaultGenericTypeNamingStrategy
+2018-12-14 15:39:53,478 - springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /v1/api/test.com.xiangbinwang.controller.TradeController.test.DefaultGenericTypeNamingStrategy
+2018-12-14 15:39:53,494 - springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method test was 交易接口
+2018-12-14 15:39:53,511 - springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method test was 交易接口
+2018-12-14 15:39:53,555 - org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-12-14 15:39:53,567 - org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-12-14 15:39:53,599 - org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-14 15:39:53,603 - com.xiangbinwang.OceanStockTradeApplication - Started OceanStockTradeApplication in 8.558 seconds (JVM running for 9.538)
+2018-12-14 15:41:24,601 - org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-14 15:41:24,601 - org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2018-12-14 15:41:24,616 - org.springframework.web.servlet.DispatcherServlet - Completed initialization in 15 ms
+2018-12-14 15:41:25,074 - com.xiangbinwang.interceptor.AuthInterceptor - 认证拦截完成
+2018-12-14 15:41:25,124 - com.xiangbinwang.interceptor.AuthInterceptor - 认证拦截完成
+2018-12-14 15:41:25,125 - com.xiangbinwang.interceptor.AuthInterceptor - 认证拦截完成
+2018-12-14 15:41:32,699 - com.xiangbinwang.interceptor.AuthInterceptor - 认证拦截完成
+2018-12-14 15:41:35,060 - com.xiangbinwang.interceptor.AuthInterceptor - 认证拦截完成
+2018-12-14 15:41:35,504 - com.xiangbinwang.interceptor.AuthInterceptor - 认证拦截完成
+2018-12-14 15:41:35,682 - com.xiangbinwang.interceptor.AuthInterceptor - 认证拦截完成
+2018-12-14 15:42:14,804 - com.xiangbinwang.OceanStockTradeApplication - Starting OceanStockTradeApplication on GR-A04-1802075 with PID 29100 (D:\workspace-self\ocean_stock_trade\target\classes started by binhaiyang in D:\workspace-self\ocean_stock_trade)
+2018-12-14 15:42:14,812 - com.xiangbinwang.OceanStockTradeApplication - No active profile set, falling back to default profiles: default
+2018-12-14 15:42:16,752 - org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-14 15:42:16,804 - org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 43ms. Found 0 repository interfaces.
+2018-12-14 15:42:17,651 - org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d439e2ab] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-14 15:42:17,927 - org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$53ba2fdd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-14 15:42:18,871 - org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-12-14 15:42:18,892 - org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-12-14 15:42:18,906 - org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-14 15:42:18,907 - org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-14 15:42:18,990 - org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files (x86)\Java\jdk1.8.0_144\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\NetSarang;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Lenovo\Bluetooth Software\;C:\Program Files\Lenovo\Bluetooth Software\syswow64;D:\apache-maven-3.5.3\bin;C:\Program Files (x86)\Java\jdk1.8.0_144\bin;C:\Program Files (x86)\Java\jdk1.8.0_144\jre\bin;D:\mysql32\mysql-5.7.21-win32\bin;C:\Users\binhaiyang\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\binhaiyang\AppData\Local\Programs\Python\Python36\;.]
+2018-12-14 15:42:19,232 - org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-14 15:42:19,232 - org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4276 ms
+2018-12-14 15:42:21,028 - org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-14 15:42:22,428 - org.mongodb.driver.cluster - Cluster created with settings {hosts=[10.0.30.140:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2018-12-14 15:42:22,598 - org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:395}] to 10.0.30.140:27017
+2018-12-14 15:42:22,606 - org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=10.0.30.140:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 18]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=5860973}
+2018-12-14 15:42:23,100 - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2018-12-14 15:42:23,151 - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found {0} custom documentation plugin(s)
+2018-12-14 15:42:23,163 - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2018-12-14 15:42:23,170 - springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method test was 交易接口
+2018-12-14 15:42:23,174 - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Request mapping: test belongs to groups: [[ResourceGroup{groupName='交易接口', position=0, controller=com.xiangbinwang.controller.TradeController}]] 
+2018-12-14 15:42:23,181 - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Created resource listing Path: /default/交易接口 Description: 交易接口 Position: 0
+2018-12-14 15:42:23,214 - springfox.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.xiangbinwang.common.ApiResponse<java.lang.String>(true)
+2018-12-14 15:42:23,214 - springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.xiangbinwang.common.ApiResponse<java.lang.String>(true)
+2018-12-14 15:42:23,226 - springfox.documentation.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.xiangbinwang.common.ApiResponse<java.lang.String>(true)
+2018-12-14 15:42:23,226 - springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.xiangbinwang.common.ApiResponse<java.lang.String>(true)
+2018-12-14 15:42:23,277 - springfox.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.xiangbinwang.common.ApiResponse<java.lang.String>(true)
+2018-12-14 15:42:23,278 - springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.xiangbinwang.common.ApiResponse<java.lang.String>(true)
+2018-12-14 15:42:23,286 - springfox.documentation.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.xiangbinwang.common.ApiResponse<java.lang.String>(true)
+2018-12-14 15:42:23,286 - springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.xiangbinwang.common.ApiResponse<java.lang.String>(true)
+2018-12-14 15:42:23,289 - springfox.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /v1/api/test.com.xiangbinwang.controller.TradeController.test.DefaultGenericTypeNamingStrategy
+2018-12-14 15:42:23,289 - springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /v1/api/test.com.xiangbinwang.controller.TradeController.test.DefaultGenericTypeNamingStrategy
+2018-12-14 15:42:23,326 - springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method test was 交易接口
+2018-12-14 15:42:23,345 - springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method test was 交易接口
+2018-12-14 15:42:23,376 - org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-12-14 15:42:23,389 - org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-12-14 15:42:23,417 - org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-14 15:42:23,421 - com.xiangbinwang.OceanStockTradeApplication - Started OceanStockTradeApplication in 10.333 seconds (JVM running for 11.494)
+2018-12-14 15:43:17,879 - org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-14 15:43:17,880 - org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2018-12-14 15:43:17,897 - org.springframework.web.servlet.DispatcherServlet - Completed initialization in 17 ms
+2018-12-14 15:43:39,247 - com.xiangbinwang.interceptor.AuthInterceptor - 认证拦截完成
+2018-12-14 15:43:40,726 - com.xiangbinwang.interceptor.AuthInterceptor - 认证拦截完成
+2018-12-14 15:43:41,464 - com.xiangbinwang.interceptor.AuthInterceptor - 认证拦截完成
+2018-12-14 15:49:01,194 - com.xiangbinwang.OceanStockTradeApplication - Starting OceanStockTradeApplication on GR-A04-1802075 with PID 18056 (D:\workspace-self\ocean_stock_trade\target\classes started by binhaiyang in D:\workspace-self\ocean_stock_trade)
+2018-12-14 15:49:01,201 - com.xiangbinwang.OceanStockTradeApplication - No active profile set, falling back to default profiles: default
+2018-12-14 15:49:03,080 - org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-14 15:49:03,133 - org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 42ms. Found 0 repository interfaces.
+2018-12-14 15:49:04,004 - org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1e61e325] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-14 15:49:04,232 - org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$9de23057] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-14 15:49:05,219 - org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-12-14 15:49:05,242 - org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-12-14 15:49:05,257 - org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-14 15:49:05,258 - org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-14 15:49:05,272 - org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files (x86)\Java\jdk1.8.0_144\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\NetSarang;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Lenovo\Bluetooth Software\;C:\Program Files\Lenovo\Bluetooth Software\syswow64;D:\apache-maven-3.5.3\bin;C:\Program Files (x86)\Java\jdk1.8.0_144\bin;C:\Program Files (x86)\Java\jdk1.8.0_144\jre\bin;D:\mysql32\mysql-5.7.21-win32\bin;C:\Users\binhaiyang\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\binhaiyang\AppData\Local\Programs\Python\Python36\;.]
+2018-12-14 15:49:05,543 - org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-14 15:49:05,543 - org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4195 ms
+2018-12-14 15:49:07,326 - org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-14 15:49:08,803 - org.mongodb.driver.cluster - Cluster created with settings {hosts=[10.0.30.140:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2018-12-14 15:49:08,930 - org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:396}] to 10.0.30.140:27017
+2018-12-14 15:49:08,934 - org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=10.0.30.140:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 18]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=1809823}
+2018-12-14 15:49:09,440 - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2018-12-14 15:49:09,503 - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found {0} custom documentation plugin(s)
+2018-12-14 15:49:09,517 - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2018-12-14 15:49:09,528 - springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method test was 交易接口
+2018-12-14 15:49:09,535 - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Request mapping: test belongs to groups: [[ResourceGroup{groupName='交易接口', position=0, controller=com.xiangbinwang.controller.TradeController}]] 
+2018-12-14 15:49:09,541 - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Created resource listing Path: /default/交易接口 Description: 交易接口 Position: 0
+2018-12-14 15:49:09,576 - springfox.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.xiangbinwang.common.ApiResponse<java.lang.String>(true)
+2018-12-14 15:49:09,576 - springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.xiangbinwang.common.ApiResponse<java.lang.String>(true)
+2018-12-14 15:49:09,591 - springfox.documentation.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.xiangbinwang.common.ApiResponse<java.lang.String>(true)
+2018-12-14 15:49:09,591 - springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.xiangbinwang.common.ApiResponse<java.lang.String>(true)
+2018-12-14 15:49:09,677 - springfox.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.xiangbinwang.common.ApiResponse<java.lang.String>(true)
+2018-12-14 15:49:09,677 - springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.xiangbinwang.common.ApiResponse<java.lang.String>(true)
+2018-12-14 15:49:09,717 - springfox.documentation.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.xiangbinwang.common.ApiResponse<java.lang.String>(true)
+2018-12-14 15:49:09,717 - springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.xiangbinwang.common.ApiResponse<java.lang.String>(true)
+2018-12-14 15:49:09,722 - springfox.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /v1/api/test.com.xiangbinwang.controller.TradeController.test.DefaultGenericTypeNamingStrategy
+2018-12-14 15:49:09,722 - springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /v1/api/test.com.xiangbinwang.controller.TradeController.test.DefaultGenericTypeNamingStrategy
+2018-12-14 15:49:09,741 - springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method test was 交易接口
+2018-12-14 15:49:09,762 - springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method test was 交易接口
+2018-12-14 15:49:09,795 - org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-12-14 15:49:09,807 - org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-12-14 15:49:09,837 - org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-14 15:49:09,842 - com.xiangbinwang.OceanStockTradeApplication - Started OceanStockTradeApplication in 10.115 seconds (JVM running for 11.193)
+2018-12-14 15:50:52,560 - org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-14 15:50:52,560 - org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2018-12-14 15:50:52,577 - org.springframework.web.servlet.DispatcherServlet - Completed initialization in 17 ms
+2018-12-14 15:51:34,415 - com.xiangbinwang.interceptor.AuthInterceptor - 认证拦截完成
+2018-12-14 15:51:36,929 - com.xiangbinwang.interceptor.AuthInterceptor - 认证拦截完成
+2018-12-14 15:51:47,524 - com.xiangbinwang.interceptor.AuthInterceptor - 认证拦截完成
+2018-12-14 15:57:16,785 - com.xiangbinwang.OceanStockTradeApplication - Starting OceanStockTradeApplication on GR-A04-1802075 with PID 21704 (D:\workspace-self\ocean_stock_trade\target\classes started by binhaiyang in D:\workspace-self\ocean_stock_trade)
+2018-12-14 15:57:16,791 - com.xiangbinwang.OceanStockTradeApplication - No active profile set, falling back to default profiles: default
+2018-12-14 15:57:18,307 - org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-14 15:57:18,350 - org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 34ms. Found 0 repository interfaces.
+2018-12-14 15:57:18,973 - org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e523ae99] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-14 15:57:19,145 - org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$64a3fbcb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-14 15:57:20,051 - org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-12-14 15:57:20,071 - org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-12-14 15:57:20,087 - org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-14 15:57:20,088 - org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-14 15:57:20,106 - org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files (x86)\Java\jdk1.8.0_144\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\NetSarang;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Lenovo\Bluetooth Software\;C:\Program Files\Lenovo\Bluetooth Software\syswow64;D:\apache-maven-3.5.3\bin;C:\Program Files (x86)\Java\jdk1.8.0_144\bin;C:\Program Files (x86)\Java\jdk1.8.0_144\jre\bin;D:\mysql32\mysql-5.7.21-win32\bin;C:\Users\binhaiyang\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\binhaiyang\AppData\Local\Programs\Python\Python36\;.]
+2018-12-14 15:57:20,369 - org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-14 15:57:20,370 - org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3475 ms
+2018-12-14 15:57:21,867 - org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-14 15:57:23,149 - org.mongodb.driver.cluster - Cluster created with settings {hosts=[10.0.30.140:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2018-12-14 15:57:23,242 - org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:397}] to 10.0.30.140:27017
+2018-12-14 15:57:23,245 - org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=10.0.30.140:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 18]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=1703339}
+2018-12-14 15:57:23,688 - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2018-12-14 15:57:23,725 - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found {0} custom documentation plugin(s)
+2018-12-14 15:57:23,737 - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2018-12-14 15:57:23,744 - springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method test was 交易接口
+2018-12-14 15:57:23,747 - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Request mapping: test belongs to groups: [[ResourceGroup{groupName='交易接口', position=0, controller=com.xiangbinwang.controller.TradeController}]] 
+2018-12-14 15:57:23,751 - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Created resource listing Path: /default/交易接口 Description: 交易接口 Position: 0
+2018-12-14 15:57:23,776 - springfox.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.xiangbinwang.common.ApiResponse<java.lang.String>(true)
+2018-12-14 15:57:23,776 - springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.xiangbinwang.common.ApiResponse<java.lang.String>(true)
+2018-12-14 15:57:23,789 - springfox.documentation.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.xiangbinwang.common.ApiResponse<java.lang.String>(true)
+2018-12-14 15:57:23,789 - springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.xiangbinwang.common.ApiResponse<java.lang.String>(true)
+2018-12-14 15:57:23,847 - springfox.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.xiangbinwang.common.ApiResponse<java.lang.String>(true)
+2018-12-14 15:57:23,847 - springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.xiangbinwang.common.ApiResponse<java.lang.String>(true)
+2018-12-14 15:57:23,858 - springfox.documentation.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.xiangbinwang.common.ApiResponse<java.lang.String>(true)
+2018-12-14 15:57:23,858 - springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.xiangbinwang.common.ApiResponse<java.lang.String>(true)
+2018-12-14 15:57:23,862 - springfox.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /v1/api/test.com.xiangbinwang.controller.TradeController.test.DefaultGenericTypeNamingStrategy
+2018-12-14 15:57:23,862 - springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /v1/api/test.com.xiangbinwang.controller.TradeController.test.DefaultGenericTypeNamingStrategy
+2018-12-14 15:57:23,888 - springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method test was 交易接口
+2018-12-14 15:57:23,912 - springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method test was 交易接口
+2018-12-14 15:57:23,949 - org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-12-14 15:57:23,964 - org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-12-14 15:57:23,996 - org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-14 15:57:24,001 - com.xiangbinwang.OceanStockTradeApplication - Started OceanStockTradeApplication in 8.207 seconds (JVM running for 9.094)
+2018-12-14 16:18:24,730 - org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-14 16:18:24,730 - org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2018-12-14 16:18:24,740 - org.springframework.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+2018-12-14 16:18:25,168 - com.xiangbinwang.interceptor.AuthInterceptor - 认证拦截完成
+2018-12-14 16:18:25,221 - com.xiangbinwang.interceptor.AuthInterceptor - 认证拦截完成
+2018-12-14 16:18:25,223 - com.xiangbinwang.interceptor.AuthInterceptor - 认证拦截完成
+2018-12-14 16:20:37,949 - com.xiangbinwang.interceptor.AuthInterceptor - 认证拦截完成
+2018-12-14 16:20:43,772 - com.xiangbinwang.interceptor.AuthInterceptor - 认证拦截完成
+2018-12-14 16:20:53,535 - com.xiangbinwang.interceptor.AuthInterceptor - 认证拦截完成
+2018-12-14 16:20:55,612 - com.xiangbinwang.interceptor.AuthInterceptor - 认证拦截完成
+2018-12-14 16:22:44,725 - com.xiangbinwang.OceanStockTradeApplication - Starting OceanStockTradeApplication on GR-A04-1802075 with PID 23164 (D:\workspace-self\ocean_stock_trade\target\classes started by binhaiyang in D:\workspace-self\ocean_stock_trade)
+2018-12-14 16:22:44,731 - com.xiangbinwang.OceanStockTradeApplication - No active profile set, falling back to default profiles: default
+2018-12-14 16:22:46,314 - org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-14 16:22:46,358 - org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 36ms. Found 0 repository interfaces.
+2018-12-14 16:22:47,208 - org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d8bb33da] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-14 16:22:47,434 - org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$583b810c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-14 16:22:48,378 - org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-12-14 16:22:48,469 - org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-12-14 16:22:48,486 - org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-14 16:22:48,486 - org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-14 16:22:48,506 - org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files (x86)\Java\jdk1.8.0_144\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\NetSarang;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Lenovo\Bluetooth Software\;C:\Program Files\Lenovo\Bluetooth Software\syswow64;D:\apache-maven-3.5.3\bin;C:\Program Files (x86)\Java\jdk1.8.0_144\bin;C:\Program Files (x86)\Java\jdk1.8.0_144\jre\bin;D:\mysql32\mysql-5.7.21-win32\bin;C:\Users\binhaiyang\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\binhaiyang\AppData\Local\Programs\Python\Python36\;.]
+2018-12-14 16:22:48,766 - org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-14 16:22:48,766 - org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3925 ms
+2018-12-14 16:22:50,489 - org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-14 16:22:52,007 - org.mongodb.driver.cluster - Cluster created with settings {hosts=[10.0.30.140:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2018-12-14 16:22:52,134 - org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:399}] to 10.0.30.140:27017
+2018-12-14 16:22:52,138 - org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=10.0.30.140:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 18]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=1726004}
+2018-12-14 16:22:52,684 - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2018-12-14 16:22:52,718 - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found {0} custom documentation plugin(s)
+2018-12-14 16:22:52,731 - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2018-12-14 16:22:52,739 - springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method test was 交易接口
+2018-12-14 16:22:52,742 - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Request mapping: test belongs to groups: [[ResourceGroup{groupName='交易接口', position=0, controller=com.xiangbinwang.controller.TradeController}]] 
+2018-12-14 16:22:52,747 - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Created resource listing Path: /default/交易接口 Description: 交易接口 Position: 0
+2018-12-14 16:22:52,776 - springfox.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.xiangbinwang.common.ApiResponse<java.lang.String>(true)
+2018-12-14 16:22:52,776 - springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.xiangbinwang.common.ApiResponse<java.lang.String>(true)
+2018-12-14 16:22:52,787 - springfox.documentation.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.xiangbinwang.common.ApiResponse<java.lang.String>(true)
+2018-12-14 16:22:52,788 - springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.xiangbinwang.common.ApiResponse<java.lang.String>(true)
+2018-12-14 16:22:52,864 - springfox.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.xiangbinwang.common.ApiResponse<java.lang.String>(true)
+2018-12-14 16:22:52,865 - springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.xiangbinwang.common.ApiResponse<java.lang.String>(true)
+2018-12-14 16:22:52,873 - springfox.documentation.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.xiangbinwang.common.ApiResponse<java.lang.String>(true)
+2018-12-14 16:22:52,873 - springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.xiangbinwang.common.ApiResponse<java.lang.String>(true)
+2018-12-14 16:22:52,877 - springfox.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /v1/api/test.com.xiangbinwang.controller.TradeController.test.DefaultGenericTypeNamingStrategy
+2018-12-14 16:22:52,877 - springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /v1/api/test.com.xiangbinwang.controller.TradeController.test.DefaultGenericTypeNamingStrategy
+2018-12-14 16:22:52,893 - springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method test was 交易接口
+2018-12-14 16:22:52,911 - springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method test was 交易接口
+2018-12-14 16:22:52,944 - org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-12-14 16:22:52,958 - org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-12-14 16:22:52,985 - org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-14 16:22:52,989 - com.xiangbinwang.OceanStockTradeApplication - Started OceanStockTradeApplication in 9.747 seconds (JVM running for 10.779)
+2018-12-14 16:25:50,442 - org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-14 16:25:50,442 - org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2018-12-14 16:25:50,458 - org.springframework.web.servlet.DispatcherServlet - Completed initialization in 16 ms
+2018-12-14 16:26:05,671 - com.xiangbinwang.interceptor.AuthInterceptor - 认证拦截完成
+2018-12-14 16:26:07,257 - com.xiangbinwang.interceptor.AuthInterceptor - 认证拦截完成
+2018-12-14 16:26:07,258 - com.xiangbinwang.interceptor.AuthInterceptor - 认证拦截完成
+2018-12-14 16:26:17,817 - com.xiangbinwang.interceptor.AuthInterceptor - 认证拦截完成
+2018-12-14 16:28:58,249 - com.xiangbinwang.OceanStockTradeApplication - Starting OceanStockTradeApplication on GR-A04-1802075 with PID 28740 (D:\workspace-self\ocean_stock_trade\target\classes started by binhaiyang in D:\workspace-self\ocean_stock_trade)
+2018-12-14 16:28:58,255 - com.xiangbinwang.OceanStockTradeApplication - No active profile set, falling back to default profiles: default
+2018-12-14 16:28:59,910 - org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-14 16:28:59,946 - org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 29ms. Found 0 repository interfaces.
+2018-12-14 16:29:00,537 - org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a386569e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-14 16:29:00,784 - org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$2306a3d0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-14 16:29:01,722 - org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-12-14 16:29:01,763 - org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-12-14 16:29:01,782 - org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-14 16:29:01,782 - org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-14 16:29:01,800 - org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files (x86)\Java\jdk1.8.0_144\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\NetSarang;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Lenovo\Bluetooth Software\;C:\Program Files\Lenovo\Bluetooth Software\syswow64;D:\apache-maven-3.5.3\bin;C:\Program Files (x86)\Java\jdk1.8.0_144\bin;C:\Program Files (x86)\Java\jdk1.8.0_144\jre\bin;D:\mysql32\mysql-5.7.21-win32\bin;C:\Users\binhaiyang\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\binhaiyang\AppData\Local\Programs\Python\Python36\;.]
+2018-12-14 16:29:02,028 - org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-14 16:29:02,028 - org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3687 ms
+2018-12-14 16:29:03,430 - org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-14 16:29:04,882 - org.mongodb.driver.cluster - Cluster created with settings {hosts=[10.0.30.140:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2018-12-14 16:29:04,971 - org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:400}] to 10.0.30.140:27017
+2018-12-14 16:29:04,974 - org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=10.0.30.140:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 18]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=1332136}
+2018-12-14 16:29:05,395 - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2018-12-14 16:29:05,431 - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found {0} custom documentation plugin(s)
+2018-12-14 16:29:05,441 - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2018-12-14 16:29:05,447 - springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method test was 交易接口
+2018-12-14 16:29:05,451 - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Request mapping: test belongs to groups: [[ResourceGroup{groupName='交易接口', position=0, controller=com.xiangbinwang.controller.TradeController}]] 
+2018-12-14 16:29:05,456 - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Created resource listing Path: /default/交易接口 Description: 交易接口 Position: 0
+2018-12-14 16:29:05,484 - springfox.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.xiangbinwang.common.ApiResponse<java.lang.String>(true)
+2018-12-14 16:29:05,485 - springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.xiangbinwang.common.ApiResponse<java.lang.String>(true)
+2018-12-14 16:29:05,496 - springfox.documentation.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.xiangbinwang.common.ApiResponse<java.lang.String>(true)
+2018-12-14 16:29:05,496 - springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.xiangbinwang.common.ApiResponse<java.lang.String>(true)
+2018-12-14 16:29:05,554 - springfox.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.xiangbinwang.common.ApiResponse<java.lang.String>(true)
+2018-12-14 16:29:05,555 - springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.xiangbinwang.common.ApiResponse<java.lang.String>(true)
+2018-12-14 16:29:05,571 - springfox.documentation.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.xiangbinwang.common.ApiResponse<java.lang.String>(true)
+2018-12-14 16:29:05,571 - springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.xiangbinwang.common.ApiResponse<java.lang.String>(true)
+2018-12-14 16:29:05,575 - springfox.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /v1/api/test.com.xiangbinwang.controller.TradeController.test.DefaultGenericTypeNamingStrategy
+2018-12-14 16:29:05,575 - springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /v1/api/test.com.xiangbinwang.controller.TradeController.test.DefaultGenericTypeNamingStrategy
+2018-12-14 16:29:05,591 - springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method test was 交易接口
+2018-12-14 16:29:05,613 - springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method test was 交易接口
+2018-12-14 16:29:05,662 - org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-12-14 16:29:05,680 - org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-12-14 16:29:05,719 - org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-14 16:29:05,725 - com.xiangbinwang.OceanStockTradeApplication - Started OceanStockTradeApplication in 8.376 seconds (JVM running for 9.236)
+2018-12-14 16:29:21,253 - org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-14 16:29:21,253 - org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2018-12-14 16:29:21,265 - org.springframework.web.servlet.DispatcherServlet - Completed initialization in 12 ms
+2018-12-14 16:29:21,753 - com.xiangbinwang.interceptor.AuthInterceptor - 认证拦截完成
+2018-12-14 16:29:21,831 - com.xiangbinwang.interceptor.AuthInterceptor - 认证拦截完成
+2018-12-14 16:29:21,834 - com.xiangbinwang.interceptor.AuthInterceptor - 认证拦截完成
+2018-12-14 16:29:27,283 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2018-12-14 16:29:32,699 - com.xiangbinwang.interceptor.AuthInterceptor - 认证拦截完成
+2018-12-14 16:34:55,549 - com.xiangbinwang.OceanStockTradeApplication - Starting OceanStockTradeApplication on GR-A04-1802075 with PID 18676 (D:\workspace-self\ocean_stock_trade\target\classes started by binhaiyang in D:\workspace-self\ocean_stock_trade)
+2018-12-14 16:34:55,555 - com.xiangbinwang.OceanStockTradeApplication - No active profile set, falling back to default profiles: default
+2018-12-14 16:34:57,246 - org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-14 16:34:57,282 - org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 26ms. Found 0 repository interfaces.
+2018-12-14 16:34:57,945 - org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b3b7196e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-14 16:34:58,198 - org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$333766a0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-14 16:34:59,234 - org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-12-14 16:34:59,260 - org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-12-14 16:34:59,278 - org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-14 16:34:59,278 - org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-14 16:34:59,291 - org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files (x86)\Java\jdk1.8.0_144\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\NetSarang;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Lenovo\Bluetooth Software\;C:\Program Files\Lenovo\Bluetooth Software\syswow64;D:\apache-maven-3.5.3\bin;C:\Program Files (x86)\Java\jdk1.8.0_144\bin;C:\Program Files (x86)\Java\jdk1.8.0_144\jre\bin;D:\mysql32\mysql-5.7.21-win32\bin;C:\Users\binhaiyang\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\binhaiyang\AppData\Local\Programs\Python\Python36\;.]
+2018-12-14 16:34:59,547 - org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-14 16:34:59,548 - org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3872 ms
+2018-12-14 16:35:01,159 - org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-14 16:35:02,682 - org.mongodb.driver.cluster - Cluster created with settings {hosts=[10.0.30.140:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2018-12-14 16:35:02,777 - org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:401}] to 10.0.30.140:27017
+2018-12-14 16:35:02,780 - org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=10.0.30.140:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 18]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=1400988}
+2018-12-14 16:35:03,218 - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2018-12-14 16:35:03,249 - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found {0} custom documentation plugin(s)
+2018-12-14 16:35:03,261 - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2018-12-14 16:35:03,268 - springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method test was 交易接口
+2018-12-14 16:35:03,270 - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Request mapping: test belongs to groups: [[ResourceGroup{groupName='交易接口', position=0, controller=com.xiangbinwang.controller.TradeController}]] 
+2018-12-14 16:35:03,275 - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Created resource listing Path: /default/交易接口 Description: 交易接口 Position: 0
+2018-12-14 16:35:03,301 - springfox.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.xiangbinwang.common.ApiResponse<java.lang.String>(true)
+2018-12-14 16:35:03,301 - springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.xiangbinwang.common.ApiResponse<java.lang.String>(true)
+2018-12-14 16:35:03,319 - springfox.documentation.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.xiangbinwang.common.ApiResponse<java.lang.String>(true)
+2018-12-14 16:35:03,319 - springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.xiangbinwang.common.ApiResponse<java.lang.String>(true)
+2018-12-14 16:35:03,371 - springfox.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.xiangbinwang.common.ApiResponse<java.lang.String>(true)
+2018-12-14 16:35:03,371 - springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.xiangbinwang.common.ApiResponse<java.lang.String>(true)
+2018-12-14 16:35:03,378 - springfox.documentation.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.xiangbinwang.common.ApiResponse<java.lang.String>(true)
+2018-12-14 16:35:03,378 - springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.xiangbinwang.common.ApiResponse<java.lang.String>(true)
+2018-12-14 16:35:03,382 - springfox.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /v1/api/test.com.xiangbinwang.controller.TradeController.test.DefaultGenericTypeNamingStrategy
+2018-12-14 16:35:03,382 - springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /v1/api/test.com.xiangbinwang.controller.TradeController.test.DefaultGenericTypeNamingStrategy
+2018-12-14 16:35:03,397 - springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method test was 交易接口
+2018-12-14 16:35:03,413 - springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method test was 交易接口
+2018-12-14 16:35:03,446 - org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-12-14 16:35:03,462 - org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-12-14 16:35:03,503 - org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-14 16:35:03,509 - com.xiangbinwang.OceanStockTradeApplication - Started OceanStockTradeApplication in 8.814 seconds (JVM running for 9.567)
+2018-12-14 16:35:03,550 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2018-12-14 16:35:07,962 - org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-14 16:35:07,963 - org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2018-12-14 16:35:07,978 - org.springframework.web.servlet.DispatcherServlet - Completed initialization in 15 ms
+2018-12-14 16:35:08,846 - org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-12-14 16:35:08,859 - org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-14 16:37:33,477 - com.xiangbinwang.OceanStockTradeApplication - Starting OceanStockTradeApplication on GR-A04-1802075 with PID 2180 (D:\workspace-self\ocean_stock_trade\target\classes started by binhaiyang in D:\workspace-self\ocean_stock_trade)
+2018-12-14 16:37:33,484 - com.xiangbinwang.OceanStockTradeApplication - No active profile set, falling back to default profiles: default
+2018-12-14 16:37:35,176 - org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-14 16:37:35,222 - org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 34ms. Found 0 repository interfaces.
+2018-12-14 16:37:36,069 - org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$78a84272] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-14 16:37:36,280 - org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$f8288fa4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-14 16:37:37,229 - org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-12-14 16:37:37,252 - org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-12-14 16:37:37,271 - org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-14 16:37:37,272 - org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-14 16:37:37,296 - org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files (x86)\Java\jdk1.8.0_144\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\NetSarang;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Lenovo\Bluetooth Software\;C:\Program Files\Lenovo\Bluetooth Software\syswow64;D:\apache-maven-3.5.3\bin;C:\Program Files (x86)\Java\jdk1.8.0_144\bin;C:\Program Files (x86)\Java\jdk1.8.0_144\jre\bin;D:\mysql32\mysql-5.7.21-win32\bin;C:\Users\binhaiyang\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\binhaiyang\AppData\Local\Programs\Python\Python36\;.]
+2018-12-14 16:37:37,540 - org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-14 16:37:37,540 - org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3882 ms
+2018-12-14 16:37:39,044 - org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-14 16:37:40,459 - org.mongodb.driver.cluster - Cluster created with settings {hosts=[10.0.30.140:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2018-12-14 16:37:40,575 - org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:402}] to 10.0.30.140:27017
+2018-12-14 16:37:40,580 - org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=10.0.30.140:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 18]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=2192572}
+2018-12-14 16:37:41,148 - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2018-12-14 16:37:41,178 - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found {0} custom documentation plugin(s)
+2018-12-14 16:37:41,213 - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2018-12-14 16:37:41,220 - springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method test was 交易接口
+2018-12-14 16:37:41,223 - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Request mapping: test belongs to groups: [[ResourceGroup{groupName='交易接口', position=0, controller=com.xiangbinwang.controller.TradeController}]] 
+2018-12-14 16:37:41,228 - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Created resource listing Path: /default/交易接口 Description: 交易接口 Position: 0
+2018-12-14 16:37:41,254 - springfox.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.xiangbinwang.common.ApiResponse<java.lang.String>(true)
+2018-12-14 16:37:41,255 - springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.xiangbinwang.common.ApiResponse<java.lang.String>(true)
+2018-12-14 16:37:41,264 - springfox.documentation.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.xiangbinwang.common.ApiResponse<java.lang.String>(true)
+2018-12-14 16:37:41,264 - springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.xiangbinwang.common.ApiResponse<java.lang.String>(true)
+2018-12-14 16:37:41,312 - springfox.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.xiangbinwang.common.ApiResponse<java.lang.String>(true)
+2018-12-14 16:37:41,313 - springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.xiangbinwang.common.ApiResponse<java.lang.String>(true)
+2018-12-14 16:37:41,320 - springfox.documentation.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.xiangbinwang.common.ApiResponse<java.lang.String>(true)
+2018-12-14 16:37:41,320 - springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.xiangbinwang.common.ApiResponse<java.lang.String>(true)
+2018-12-14 16:37:41,323 - springfox.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /v1/api/test.com.xiangbinwang.controller.TradeController.test.DefaultGenericTypeNamingStrategy
+2018-12-14 16:37:41,323 - springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /v1/api/test.com.xiangbinwang.controller.TradeController.test.DefaultGenericTypeNamingStrategy
+2018-12-14 16:37:41,337 - springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method test was 交易接口
+2018-12-14 16:37:41,353 - springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method test was 交易接口
+2018-12-14 16:37:41,383 - org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-12-14 16:37:41,396 - org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-12-14 16:37:41,426 - org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-14 16:37:41,430 - com.xiangbinwang.OceanStockTradeApplication - Started OceanStockTradeApplication in 8.818 seconds (JVM running for 9.603)
+2018-12-14 16:37:41,477 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2018-12-14 16:37:41,730 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2018-12-14 16:37:54,599 - org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-14 16:37:54,599 - org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2018-12-14 16:37:54,621 - org.springframework.web.servlet.DispatcherServlet - Completed initialization in 22 ms
+2018-12-14 16:37:54,956 - com.xiangbinwang.interceptor.AuthInterceptor - 认证拦截完成
+2018-12-14 16:37:55,008 - com.xiangbinwang.interceptor.AuthInterceptor - 认证拦截完成
+2018-12-14 16:37:55,009 - com.xiangbinwang.interceptor.AuthInterceptor - 认证拦截完成
+2018-12-14 16:38:01,622 - com.xiangbinwang.interceptor.AuthInterceptor - 认证拦截完成
+2018-12-14 16:38:08,775 - com.xiangbinwang.interceptor.AuthInterceptor - 认证拦截完成
+2018-12-14 16:58:06,370 - com.xiangbinwang.OceanStockTradeApplication - Starting OceanStockTradeApplication on GR-A04-1802075 with PID 30488 (D:\workspace-self\ocean_stock_trade\target\classes started by binhaiyang in D:\workspace-self\ocean_stock_trade)
+2018-12-14 16:58:06,379 - com.xiangbinwang.OceanStockTradeApplication - No active profile set, falling back to default profiles: default
+2018-12-14 16:58:08,073 - org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-14 16:58:08,112 - org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 27ms. Found 0 repository interfaces.
+2018-12-14 16:58:08,821 - org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$dc33461e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-14 16:58:09,001 - org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$5bb39350] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-14 16:58:10,025 - org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-12-14 16:58:10,055 - org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-12-14 16:58:10,075 - org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-14 16:58:10,075 - org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-14 16:58:10,103 - org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files (x86)\Java\jdk1.8.0_144\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\NetSarang;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Lenovo\Bluetooth Software\;C:\Program Files\Lenovo\Bluetooth Software\syswow64;D:\apache-maven-3.5.3\bin;C:\Program Files (x86)\Java\jdk1.8.0_144\bin;C:\Program Files (x86)\Java\jdk1.8.0_144\jre\bin;D:\mysql32\mysql-5.7.21-win32\bin;C:\Users\binhaiyang\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\binhaiyang\AppData\Local\Programs\Python\Python36\;.]
+2018-12-14 16:58:10,444 - org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-14 16:58:10,444 - org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3980 ms
+2018-12-14 16:58:12,156 - org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-14 16:58:13,589 - org.mongodb.driver.cluster - Cluster created with settings {hosts=[10.0.30.140:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2018-12-14 16:58:13,709 - org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:403}] to 10.0.30.140:27017
+2018-12-14 16:58:13,716 - org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=10.0.30.140:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 18]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=1864990}
+2018-12-14 16:58:14,180 - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2018-12-14 16:58:14,213 - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found {0} custom documentation plugin(s)
+2018-12-14 16:58:14,224 - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2018-12-14 16:58:14,233 - springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method test was 交易接口
+2018-12-14 16:58:14,235 - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Request mapping: test belongs to groups: [[ResourceGroup{groupName='交易接口', position=0, controller=com.xiangbinwang.controller.TradeController}]] 
+2018-12-14 16:58:14,241 - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Created resource listing Path: /default/交易接口 Description: 交易接口 Position: 0
+2018-12-14 16:58:14,278 - springfox.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.xiangbinwang.common.ApiResponse<java.lang.String>(true)
+2018-12-14 16:58:14,278 - springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.xiangbinwang.common.ApiResponse<java.lang.String>(true)
+2018-12-14 16:58:14,288 - springfox.documentation.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.xiangbinwang.common.ApiResponse<java.lang.String>(true)
+2018-12-14 16:58:14,288 - springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.xiangbinwang.common.ApiResponse<java.lang.String>(true)
+2018-12-14 16:58:14,337 - springfox.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.xiangbinwang.common.ApiResponse<java.lang.String>(true)
+2018-12-14 16:58:14,337 - springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.xiangbinwang.common.ApiResponse<java.lang.String>(true)
+2018-12-14 16:58:14,344 - springfox.documentation.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.xiangbinwang.common.ApiResponse<java.lang.String>(true)
+2018-12-14 16:58:14,345 - springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.xiangbinwang.common.ApiResponse<java.lang.String>(true)
+2018-12-14 16:58:14,348 - springfox.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /v1/api/test.com.xiangbinwang.controller.TradeController.test.DefaultGenericTypeNamingStrategy
+2018-12-14 16:58:14,348 - springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /v1/api/test.com.xiangbinwang.controller.TradeController.test.DefaultGenericTypeNamingStrategy
+2018-12-14 16:58:14,362 - springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method test was 交易接口
+2018-12-14 16:58:14,379 - springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method test was 交易接口
+2018-12-14 16:58:14,408 - org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-12-14 16:58:14,421 - org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-12-14 16:58:14,462 - org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-14 16:58:14,467 - com.xiangbinwang.OceanStockTradeApplication - Started OceanStockTradeApplication in 9.348 seconds (JVM running for 10.178)
+2018-12-14 16:58:14,505 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2018-12-14 16:58:14,755 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2018-12-14 16:58:40,860 - org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-14 16:58:40,861 - org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2018-12-14 16:58:40,875 - org.springframework.web.servlet.DispatcherServlet - Completed initialization in 14 ms
+2018-12-14 16:58:41,292 - com.xiangbinwang.interceptor.AuthInterceptor - 认证拦截完成
+2018-12-14 16:58:41,343 - com.xiangbinwang.interceptor.AuthInterceptor - 认证拦截完成
+2018-12-14 16:58:41,348 - com.xiangbinwang.interceptor.AuthInterceptor - 认证拦截完成
+2018-12-14 16:58:46,255 - com.xiangbinwang.interceptor.AuthInterceptor - 认证拦截完成
+2018-12-14 17:07:02,339 - com.xiangbinwang.OceanStockTradeApplication - Starting OceanStockTradeApplication on GR-A04-1802075 with PID 16012 (D:\workspace-self\ocean_stock_trade\target\classes started by binhaiyang in D:\workspace-self\ocean_stock_trade)
+2018-12-14 17:07:02,346 - com.xiangbinwang.OceanStockTradeApplication - No active profile set, falling back to default profiles: default
+2018-12-14 17:07:04,169 - org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-14 17:07:04,217 - org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 37ms. Found 0 repository interfaces.
+2018-12-14 17:07:05,041 - org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4ce62e67] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-14 17:07:05,268 - org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$cc667b99] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-14 17:07:06,573 - org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-12-14 17:07:06,597 - org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-12-14 17:07:06,616 - org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-14 17:07:06,616 - org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-14 17:07:06,635 - org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files (x86)\Java\jdk1.8.0_144\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\NetSarang;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Lenovo\Bluetooth Software\;C:\Program Files\Lenovo\Bluetooth Software\syswow64;D:\apache-maven-3.5.3\bin;C:\Program Files (x86)\Java\jdk1.8.0_144\bin;C:\Program Files (x86)\Java\jdk1.8.0_144\jre\bin;D:\mysql32\mysql-5.7.21-win32\bin;C:\Users\binhaiyang\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\binhaiyang\AppData\Local\Programs\Python\Python36\;.]
+2018-12-14 17:07:06,910 - org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-14 17:07:06,910 - org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4396 ms
+2018-12-14 17:07:08,737 - org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-14 17:07:10,287 - org.mongodb.driver.cluster - Cluster created with settings {hosts=[10.0.30.140:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2018-12-14 17:07:10,395 - org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:404}] to 10.0.30.140:27017
+2018-12-14 17:07:10,399 - org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=10.0.30.140:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 18]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=1739262}
+2018-12-14 17:07:11,077 - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2018-12-14 17:07:11,112 - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found {0} custom documentation plugin(s)
+2018-12-14 17:07:11,149 - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2018-12-14 17:07:11,156 - springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method test was 交易接口
+2018-12-14 17:07:11,160 - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Request mapping: test belongs to groups: [[ResourceGroup{groupName='交易接口', position=0, controller=com.xiangbinwang.controller.TradeController}]] 
+2018-12-14 17:07:11,166 - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Created resource listing Path: /default/交易接口 Description: 交易接口 Position: 0
+2018-12-14 17:07:11,198 - springfox.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.xiangbinwang.common.ApiResponse<java.lang.String>(true)
+2018-12-14 17:07:11,199 - springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.xiangbinwang.common.ApiResponse<java.lang.String>(true)
+2018-12-14 17:07:11,209 - springfox.documentation.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.xiangbinwang.common.ApiResponse<java.lang.String>(true)
+2018-12-14 17:07:11,209 - springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.xiangbinwang.common.ApiResponse<java.lang.String>(true)
+2018-12-14 17:07:11,268 - springfox.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.xiangbinwang.common.ApiResponse<java.lang.String>(true)
+2018-12-14 17:07:11,268 - springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.xiangbinwang.common.ApiResponse<java.lang.String>(true)
+2018-12-14 17:07:11,275 - springfox.documentation.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.xiangbinwang.common.ApiResponse<java.lang.String>(true)
+2018-12-14 17:07:11,276 - springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.xiangbinwang.common.ApiResponse<java.lang.String>(true)
+2018-12-14 17:07:11,280 - springfox.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /v1/api/test.com.xiangbinwang.controller.TradeController.test.DefaultGenericTypeNamingStrategy
+2018-12-14 17:07:11,280 - springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /v1/api/test.com.xiangbinwang.controller.TradeController.test.DefaultGenericTypeNamingStrategy
+2018-12-14 17:07:11,296 - springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method test was 交易接口
+2018-12-14 17:07:11,339 - springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method test was 交易接口
+2018-12-14 17:07:11,373 - org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-12-14 17:07:11,387 - org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-12-14 17:07:11,415 - org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-14 17:07:11,420 - com.xiangbinwang.OceanStockTradeApplication - Started OceanStockTradeApplication in 10.291 seconds (JVM running for 11.368)
+2018-12-14 17:07:11,455 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2018-12-14 17:07:11,775 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2018-12-14 17:07:12,190 - org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-14 17:07:12,190 - org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2018-12-14 17:07:12,207 - org.springframework.web.servlet.DispatcherServlet - Completed initialization in 16 ms
+2018-12-14 17:07:12,805 - com.xiangbinwang.interceptor.AuthInterceptor - 认证拦截完成
+2018-12-14 17:07:12,859 - com.xiangbinwang.interceptor.AuthInterceptor - 认证拦截完成
+2018-12-14 17:07:12,860 - com.xiangbinwang.interceptor.AuthInterceptor - 认证拦截完成
+2018-12-14 17:07:18,487 - com.xiangbinwang.interceptor.AuthInterceptor - 认证拦截完成
+2018-12-14 17:12:16,060 - com.xiangbinwang.OceanStockTradeApplication - Starting OceanStockTradeApplication on GR-A04-1802075 with PID 18124 (D:\workspace-self\ocean_stock_trade\target\classes started by binhaiyang in D:\workspace-self\ocean_stock_trade)
+2018-12-14 17:12:16,065 - com.xiangbinwang.OceanStockTradeApplication - No active profile set, falling back to default profiles: default
+2018-12-14 17:12:17,733 - org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-14 17:12:17,770 - org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 30ms. Found 0 repository interfaces.
+2018-12-14 17:12:18,449 - org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ebe9552f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-14 17:12:18,700 - org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$6b69a261] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-14 17:12:19,724 - org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-12-14 17:12:19,751 - org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-12-14 17:12:19,773 - org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-14 17:12:19,773 - org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-14 17:12:19,793 - org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files (x86)\Java\jdk1.8.0_144\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\NetSarang;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Lenovo\Bluetooth Software\;C:\Program Files\Lenovo\Bluetooth Software\syswow64;D:\apache-maven-3.5.3\bin;C:\Program Files (x86)\Java\jdk1.8.0_144\bin;C:\Program Files (x86)\Java\jdk1.8.0_144\jre\bin;D:\mysql32\mysql-5.7.21-win32\bin;C:\Users\binhaiyang\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\binhaiyang\AppData\Local\Programs\Python\Python36\;.]
+2018-12-14 17:12:20,063 - org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api] - Initializing Spring embedded WebApplicationContext
+2018-12-14 17:12:20,063 - org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3906 ms
+2018-12-14 17:12:21,535 - org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-14 17:12:23,165 - org.mongodb.driver.cluster - Cluster created with settings {hosts=[10.0.30.140:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2018-12-14 17:12:23,252 - org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:405}] to 10.0.30.140:27017
+2018-12-14 17:12:23,255 - org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=10.0.30.140:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 18]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=1661856}
+2018-12-14 17:12:23,842 - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2018-12-14 17:12:23,878 - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found {0} custom documentation plugin(s)
+2018-12-14 17:12:23,893 - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2018-12-14 17:12:23,901 - springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method test was 交易接口
+2018-12-14 17:12:23,906 - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Request mapping: test belongs to groups: [[ResourceGroup{groupName='交易接口', position=0, controller=com.xiangbinwang.controller.TradeController}]] 
+2018-12-14 17:12:23,911 - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Created resource listing Path: /default/交易接口 Description: 交易接口 Position: 0
+2018-12-14 17:12:23,939 - springfox.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.xiangbinwang.common.ApiResponse<java.lang.String>(true)
+2018-12-14 17:12:23,939 - springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key com.xiangbinwang.common.ApiResponse<java.lang.String>(true)
+2018-12-14 17:12:23,950 - springfox.documentation.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.xiangbinwang.common.ApiResponse<java.lang.String>(true)
+2018-12-14 17:12:23,950 - springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.xiangbinwang.common.ApiResponse<java.lang.String>(true)
+2018-12-14 17:12:24,004 - springfox.documentation.schema.ModelContextKeyGenerator - Cache Key Generated: com.xiangbinwang.common.ApiResponse<java.lang.String>(true)
+2018-12-14 17:12:24,005 - springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key com.xiangbinwang.common.ApiResponse<java.lang.String>(true)
+2018-12-14 17:12:24,012 - springfox.documentation.schema.property.ModelPropertiesKeyGenerator - Cache key generated: com.xiangbinwang.common.ApiResponse<java.lang.String>(true)
+2018-12-14 17:12:24,012 - springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.xiangbinwang.common.ApiResponse<java.lang.String>(true)
+2018-12-14 17:12:24,015 - springfox.documentation.spring.web.OperationsKeyGenerator - Cache key generated: /v1/api/test.com.xiangbinwang.controller.TradeController.test.DefaultGenericTypeNamingStrategy
+2018-12-14 17:12:24,015 - springfox.documentation.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /v1/api/test.com.xiangbinwang.controller.TradeController.test.DefaultGenericTypeNamingStrategy
+2018-12-14 17:12:24,029 - springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method test was 交易接口
+2018-12-14 17:12:24,045 - springfox.documentation.swagger.web.ClassOrApiAnnotationResourceGrouping - Group for method test was 交易接口
+2018-12-14 17:12:24,075 - org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-12-14 17:12:24,085 - org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-12-14 17:12:24,113 - org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/api'
+2018-12-14 17:12:24,117 - com.xiangbinwang.OceanStockTradeApplication - Started OceanStockTradeApplication in 9.049 seconds (JVM running for 9.883)
+2018-12-14 17:12:24,146 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2018-12-14 17:12:24,367 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2018-12-14 17:12:55,942 - org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-14 17:12:55,942 - org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2018-12-14 17:12:55,958 - org.springframework.web.servlet.DispatcherServlet - Completed initialization in 16 ms
+2018-12-14 17:12:56,070 - com.xiangbinwang.interceptor.AuthInterceptor - 认证拦截完成
+2018-12-14 17:12:56,071 - com.xiangbinwang.interceptor.AuthInterceptor - 认证拦截完成
+2018-12-14 17:12:56,076 - com.xiangbinwang.interceptor.AuthInterceptor - 认证拦截完成
+2018-12-14 17:12:56,082 - com.xiangbinwang.interceptor.AuthInterceptor - 认证拦截完成
+2018-12-14 17:12:56,084 - com.xiangbinwang.interceptor.AuthInterceptor - 认证拦截完成
+2018-12-14 17:12:56,091 - com.xiangbinwang.interceptor.AuthInterceptor - 认证拦截完成
+2018-12-14 17:12:56,096 - com.xiangbinwang.interceptor.AuthInterceptor - 认证拦截完成
+2018-12-14 17:12:56,102 - com.xiangbinwang.interceptor.AuthInterceptor - 认证拦截完成
+2018-12-14 17:12:56,102 - com.xiangbinwang.interceptor.AuthInterceptor - 认证拦截完成
+2018-12-14 17:12:56,111 - com.xiangbinwang.interceptor.AuthInterceptor - 认证拦截完成
+2018-12-14 17:12:56,121 - com.xiangbinwang.interceptor.AuthInterceptor - 认证拦截完成
+2018-12-14 17:12:56,124 - com.xiangbinwang.interceptor.AuthInterceptor - 认证拦截完成
+2018-12-14 17:12:56,143 - com.xiangbinwang.interceptor.AuthInterceptor - 认证拦截完成
+2018-12-14 17:12:56,148 - com.xiangbinwang.interceptor.AuthInterceptor - 认证拦截完成
+2018-12-14 17:12:56,186 - com.xiangbinwang.interceptor.AuthInterceptor - 认证拦截完成
+2018-12-14 17:12:56,379 - com.xiangbinwang.interceptor.AuthInterceptor - 认证拦截完成
+2018-12-14 17:12:56,380 - com.xiangbinwang.interceptor.AuthInterceptor - 认证拦截完成
+2018-12-14 17:12:56,387 - com.xiangbinwang.interceptor.AuthInterceptor - 认证拦截完成
+2018-12-14 17:12:56,429 - com.xiangbinwang.interceptor.AuthInterceptor - 认证拦截完成
+2018-12-14 17:12:56,493 - com.xiangbinwang.interceptor.AuthInterceptor - 认证拦截完成
+2018-12-14 17:12:56,506 - com.xiangbinwang.interceptor.AuthInterceptor - 认证拦截完成
+2018-12-14 17:12:56,513 - com.xiangbinwang.interceptor.AuthInterceptor - 认证拦截完成
+2018-12-14 17:12:56,616 - com.xiangbinwang.interceptor.AuthInterceptor - 认证拦截完成
+2018-12-14 17:12:56,669 - com.xiangbinwang.interceptor.AuthInterceptor - 认证拦截完成
+2018-12-14 17:12:56,679 - com.xiangbinwang.interceptor.AuthInterceptor - 认证拦截完成
+2018-12-14 17:12:59,042 - com.xiangbinwang.interceptor.AuthInterceptor - 认证拦截完成
+2018-12-14 17:13:03,754 - com.xiangbinwang.interceptor.AuthInterceptor - 认证拦截完成

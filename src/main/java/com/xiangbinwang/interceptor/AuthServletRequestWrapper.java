@@ -35,7 +35,7 @@ public class AuthServletRequestWrapper extends HttpServletRequestWrapper {
     } catch (IOException e) {
       throw new RuntimeException("读取请求数据异常", e);
     }
-    log.info(builder.toString());
+    log.debug(builder.toString());
   }
 
   /**

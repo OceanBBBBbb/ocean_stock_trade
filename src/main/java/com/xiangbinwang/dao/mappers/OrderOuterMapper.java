@@ -1,4 +1,4 @@
-package com.xiangbinwang.dao.mappers.mappers;
+package com.xiangbinwang.dao.mappers;
 
 import com.xiangbinwang.dao.entity.OrderOuter;
 import java.util.List;

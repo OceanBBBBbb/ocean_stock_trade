@@ -15,8 +15,7 @@ import lombok.extern.slf4j.Slf4j;
 
 /**
  * Created by Lxa on 2018/6/27.
- *
- * @author lixianan
+ *update by Bhy on 2018/12/15
  */
 @Slf4j
 @WebFilter(filterName="authServletRequestFilter",urlPatterns="/*")

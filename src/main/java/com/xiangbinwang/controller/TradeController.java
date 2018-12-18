@@ -22,7 +22,7 @@ import org.springframework.web.bind.annotation.RestController;
 @Api("交易接口")
 @Slf4j
 @RestController
-@RequestMapping("/v1/api")
+@RequestMapping("/v1/api/trade")
 public class TradeController {
 
   @Autowired
